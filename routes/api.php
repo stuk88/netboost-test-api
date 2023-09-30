@@ -14,3 +14,4 @@ use App\Http\Controllers\CrawlerController;
 */
 
 Route::get('/crawl', [CrawlerController::class, 'crawl']);
+Route::get('/session_id', [CrawlerController::class, 'get_session_id']);
